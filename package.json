@@ -1,0 +1,29 @@
+{
+  "name": "aurora-ui",
+  "version": "1.0.0",
+  "description": "UI for Aurora project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aurora-system/aurora-ui.git"
+  },
+  "keywords": [
+    "water",
+    "station",
+    "system"
+  ],
+  "author": "Jhunie & Andrew",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cjpangilinan/aurora-ui/issues"
+  },
+  "homepage": "https://github.com/cjpangilinan/aurora-ui#readme",
+  "dependencies": {
+    "angular": "^1.6.8",
+    "angular-route": "^1.6.8",
+    "bootstrap": "^3.3.7"
+  }
+}

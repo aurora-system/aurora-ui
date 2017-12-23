@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body ng-app="aurora">
+      <h1>Test</h1>
+      <header>
+        <div id="header">
+          <ul class="menu">
+            <li><a href="#/home">Search</a></li>
+            <li><a href="#/search-customer">Customers</a></li>
+            <li><a href="#/new-order">Orders</a></li>
+            <li><a href="#/all-reports">Reports</a></li>
+            <li><a href="#/debts-payments">Debts and Payments</a></li>
+          </ul>
+        </div>
+      </header>
+    
+      <ng-view></ng-view>
+    
+      <footer>
+          Aurora water station system. MIT Licence. 
+      </footer>
+      
+      <script src="bower_components/angular/angular.min.js"></script>
+      <script src="bower_components/angular-route/angular-route.min.js"></script>  
+      <script src="script.js"></script>
+      <link rel="stylesheet" href="bower_components/bootstrap-css/css/bootstrap.css"/>
+    </body>
+</html>

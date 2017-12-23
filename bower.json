@@ -1,0 +1,27 @@
+{
+  "name": "aurora-ui",
+  "description": "UI for Aurora project",
+  "main": "index.js",
+  "authors": [
+    "Jhunie & Andrew"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "water",
+    "station",
+    "system"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-css": "^3.3.7",
+    "angular": "^1.6.8",
+    "angular-route": "^1.6.8"
+  }
+}
